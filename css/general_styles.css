@@ -20,6 +20,14 @@ nav a:active i {
     color: lightskyblue;
 }
 
+nav a.selected i{
+    background-color: lightskyblue;
+    border-radius: 10em;
+    padding: 2%;
+    color: black;
+}
+
+/*Footer*/
 footer {
     background-color: black;
     color: white;
