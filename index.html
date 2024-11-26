@@ -1,23 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/297d4fc201.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
-
+        <h1>My personal portfolio</h1>
     </header>
 
     <main>
         <section>
-            <h1>Home</h1>
-            <p>Home page</p>
+            <img id="profile-img" src="profile.png" alt="I am this guy">
+            <div class="rounded-container">
+                <h2>Contacto</h2>
+                <div class="container-start">
+                    <p><i class="fa-regular fa-envelope"></i><a
+                            href="mailto:ivanalvarezfernandez9876@gmail.com">ivanalvarezfernandez9876@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i>+34 689 61 83 81</p>
+                    <p><i class="fa-brands fa-linkedin"></i><a
+                            href="https://www.linkedin.com/in/iván-álvarez-fernández-60829733a/">Iván Álvarez
+                            Fernández</a></p>
+                    <p><i class="fa-brands fa-github"></i><a href="https://github.com/ivanaf03">@ivanaf03</a></p>
+                    <p><i class="fa-solid fa-house"></i>A Coruña / Lugo</p>
+                </div>
+            </div>
+            <div class="rounded-container">
+                <h2>Idiomas</h2>
+                <div class="container-start">
+                    <p>• Español (nativo)</p>
+                    <p>• Gallego (nativo)</p>
+                    <p>• Inglés</p>
+                </div>
+            </div>
+            <div class="rounded-container">
+                <h2>Formación</h2>
+                <div class="container-start">
+                    <p>• Bachillerato tecnológico</p>
+                    <p>• Grado en Ingeniería Informática <a href="https://www.fic.udc.es">(FIC)</a></p>
+                    <p>• Mención en Ingeniería del Software <a href="https://www.fic.udc.es">(FIC)</a></p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="shadow-container">
+                <h2>Sobre mí</h2>
+                <p>Hola! Me llamo Iván y soy un estudiante de Ingeniería Informática apasionado por el desarrollo web,
+                    el mundo de las aplicaciones web, el diseño y todo lo que tenga que ver con el frontend. He hecho este portfolio
+                    ahora que estoy terminando la carrera, con la idea de complementar el currículum y mantenerlo a lo
+                    largo de mi vida, ya sea con mis proyectos personales, ideas o lo que se me ocurra.</p>
+                <p>He nacido en un pequeño pueblo de Galicia y desde muy pequeño me encantan los animales y la informática. Mi pasión por la informática comenzó desde muy pequeño, cuando iba con mi madre a sus cursillos de ofimática. Me encantaba dibujar con el antiguo paint de windows XP y hacer presentaciones y documentos con Office. Con apenas 5 años me pasaba horas trasteando con el ordenador. A medida que iba creciendo me empezaron a interesar los videojuegos, el diseño de interfaces web y todo el mundo de la programación en general.</p>
+                <p>Al entrar a la ESO ya tenía bastante claro que quería estudiar una ingeniería o algo relacionado con el mundo de los ordenadores. Cuando empecé bachiller y llegó la hora de elegir carrera decidí hacer Ingeniería Informática, ya que lo poco que había programado con HTML plano y C++ en Arduino en el instituto me había gustado y empezaba a inetersarme más a fondo el mundo de la programación.</p>
+                <p>Ya en la carrera me di cuenta que lo que mejor se me daba era el frontend. Sin embargo, al hacer algunas aplicaciones Web con Spring, descubrí que el backend no era tan tedioso y "feo" y que podía adaptarme a un perfil full-stack si era necesario. Me encanta programar y descubrir nuevos lenguajes y tecnologías.</p>
+            </div>
+            <div class="shadow-container">
+                <h2>Tecnologías</h2>   
+                <p>Aunque me encanta el frontend, he utilizado todo tipo de tecnologías tanto de front como de back en la carrera e incluso por mi propia cuenta. Mencionaré las que más me gustan y con las que más cómodo me siento:</p>
+                <ul>
+                    <li><i class="fa-solid fa-database"></i>MySQL</li>
+                    <li><i class="fa-brands fa-java"></i>Java</li>
+                    <li><i class="fa-brands fa-java"></i>Spring</li>
+                    <li><i class="fa-brands fa-html5"></i>HTML5</li>
+                    <li><i class="fa-brands fa-css3"></i>CSS3</li>
+                    <li><i class="fa-brands fa-js"></i>JavaScript</li>
+                    <li><i class="fa-brands fa-react"></i>React</li>
+                    <li><i class="fa-brands fa-react"></i>React Native</li>
+                    <li><i class="fa-brands fa-css"></i>TailwindCSS</li>
+                    <li><i class="fa-brands fa-github"></i>GitHub</li>
+                    <li><i class="fa-brands fa-gitlab"></i>GitLab</li>
+                </ul>
+            </div>   
+            <div class="shadow-container">
+                <h2>Mi Proyecto de Fin de Grado</h2>
+                <p>Como he mencionado antes, me encantan tanto los animales como el desarrollo de aplicaciones web. Para ayudar a mi familia, he decidido realizar una aplicación para la gestión de ganado en pequeñas explotaciones. Para que sea más cómoda para los usuarios a los que va destinada, he pensado en hacer una aplicación móvil.</p>
+                <p>Descubrí React Native gracias a YouTube y con mis conocimientos de React se me hace sencillo trabajar con él. Además estoy utilizando Nativewind, una librería de TailwindCSS para React Native, mi framework de CSS favorito. Gracias a React Native y a este proyecto, estoy mejorando tanto mis conocimientos de React, como de JavaScript, como de aplicaciones móviles.</p>
+                <p>Personalmente creo que iniciar este proyecto yo solo está comenzando a encaminar mi carrera correctamente y a ayudarme a especializarme en aplicaciones web, sobre todo con React. Sin embargo, no descarto probar otros frameworks como VueJS o Angular. Estoy abierto a probar nuevas tecnologías, tanto de backend como de frontend, y a aportar lo máximo posible en los proyectos donde trabaje.</p>
+            </div>
+            <div class="shadow-container">
+                <h2>Habilidades</h2> 
+                <p>Destaco trabajando en grupo, ya que incluso en las propias prácticas de las asignaturas de la universidad es fascinante ver como pequeños proyectos van creciendo poco a poco gracias al trabajo unido de unas pocas personas. En la mención de Ingeniería de Software trabajamos en grupos de 4-8 personas y estamos muy unidos. Siempre he estado en grupos con muy buen ambiente en la carrera y, personalmente, creo que gracias al esfuerzo que hemos puesto mis compañeros y yo, siempre hemos hecho buen trabajo.</p>
+                <p>Valoro muy positivamente el Clean Code. A lo largo de la carrera me he dado cuenta de que muchas veces pierdo más tiempo intentando arreglar un código que ni yo mismo entiendo que en dejarlo bien organizado y estructurado. La arquitectura y las buenas prácticas de programación son muy importantes y diferencian un código escalable de un proyecto que pasado un tiempo sea imposible de mantener.</p>
+                <p>Soy una persona muy organizada y puntual. Me encanta organizarme para evitar procrastinar e intentar llevar todo día a día, ya sean estudios o trabajo.</p>
+                <p>Antes era una persona muy tímida, pero gracias a mi experiencia en la universidad, ya que vine a estudiar completamente solo a Coruña, mis habilidades sociales han mejorado un montón. A lo largo de la carrera he conocido a personas que me han cambiado completamente. Personalmente, creo que ahora soy una persona muy sociable y que gano confianza rápidamente con la gente. Agradezco mucho a todos mis compañeros y amigos de la carrera que siempre generan un ambiente espectacular que no se ve tanto en otras facultades.</p>
+            </div>  
         </section>
     </main>
     <footer>
-        <p>Footer</p>
+        <p id="year"></p>
+        <p>© Iván Álvarez Fernández</p>
+        <p>All rights reserved</p>
     </footer>
+
+    <script src="year.js"></script>
 </body>
+
 </html>
