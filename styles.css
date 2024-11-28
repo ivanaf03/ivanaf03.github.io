@@ -96,15 +96,34 @@ main > section:nth-of-type(2) h2 {
     width: 90%;
     margin: 1rem;
     padding: 1rem;
-    background: linear-gradient(90deg, rgba(176,0,255,1) 0%, rgba(255,52,212,0.6358192935377276) 100%, rgba(176,0,255,1) 100%);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background: linear-gradient(90deg, rgba(77,0,112,1) 0%, rgba(206,0,255,1) 81%, rgba(77,0,112,1) 100%);
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rounded-container:hover {
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .shadow-container {
     border-radius: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.2);
     padding: 1rem;
     margin-bottom: 2rem;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.shadow-container.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.shadow-container:hover {
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .shadow-container h2 {
@@ -123,7 +142,7 @@ ul {
 }
 
 a {
-    color: #5b0088;
+    color: #ce6dff;
     text-decoration: underline;
 }
 
